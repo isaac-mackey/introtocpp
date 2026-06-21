@@ -10,5 +10,7 @@ int main(){
 std::cerr << "about to call error function\n";
 error();
 
+std::cout << "I don't expect to see this line printed" << "\n";
+
 return 0;
 }

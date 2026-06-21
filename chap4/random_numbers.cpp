@@ -15,7 +15,7 @@ for (int i=0; i < 10; i++)
 	std::cout << "Random " << bottom << " to " << top << " #" << i << ": "<< die_dist(engine) << "\n";
 
 for (int i=0; i < 10; i++) {
-	std::string s(100, 'x');
+	std::string s(20, 'x');
 	for (char& ch : s) {
 		char c = alphabet_dist(engine);
 		ch = c;

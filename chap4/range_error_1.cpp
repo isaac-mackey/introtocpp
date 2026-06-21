@@ -11,11 +11,11 @@ std::cout << "Size: " << numbers.size() << "\n";
 try {
 
 for(int i = 0; i <= numbers.size()+1; i++){
-	std::cout << "number: " << numbers[i] << "\n";
 	if (i >= numbers.size()){
-	throw std::out_of_range("out of range");
-	}	
-}
+		throw std::out_of_range("out of range");
+		}
+	std::cout << "number: " << numbers[i] << "\n";		
+	}
 }
 catch (std::out_of_range) {
 	std::cerr << "Oops! Out of range\n";

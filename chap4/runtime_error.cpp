@@ -13,7 +13,7 @@ try {
 for(int i = 0; i <= numbers.size()+1; i++){
 	std::cout << "number: " << numbers[i] << "\n";
 	if (i >= numbers.size()){
-	throw std::runtime_error("out of range");
+	throw std::runtime_error("Hey! Hey! Hey! That's out of range");
 	}	
 }
 }
